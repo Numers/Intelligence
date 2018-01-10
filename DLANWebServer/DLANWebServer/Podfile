@@ -1,0 +1,9 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+target "DLANWebServer" do
+project 'DLANWebServer.xcodeproj'
+#pod "GCDWebServer", "~> 3.0"
+#pod "GCDWebServer/WebUploader", "~> 3.0"
+#pod "GCDWebServer/WebDAV", "~> 3.0"
+end

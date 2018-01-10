@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140DDFB91EF8C3A80028E435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 140DDFB81EF8C3A80028E435 /* main.m */; };
+		140DDFBC1EF8C3A80028E435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 140DDFBB1EF8C3A80028E435 /* AppDelegate.m */; };
+		140DDFBF1EF8C3A80028E435 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140DDFBE1EF8C3A80028E435 /* ViewController.m */; };
+		140DDFC21EF8C3A80028E435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140DDFC01EF8C3A80028E435 /* Main.storyboard */; };
+		140DDFC41EF8C3A80028E435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140DDFC31EF8C3A80028E435 /* Assets.xcassets */; };
+		140DDFC71EF8C3A80028E435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140DDFC51EF8C3A80028E435 /* LaunchScreen.storyboard */; };
+		140DDFD01EF8C9710028E435 /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 140DDFCF1EF8C9710028E435 /* AppUtils.m */; };
+		140DDFD91EF8CA710028E435 /* FeThreeDotGlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 140DDFD31EF8CA710028E435 /* FeThreeDotGlow.m */; };
+		140DDFDA1EF8CA710028E435 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 140DDFD61EF8CA710028E435 /* FXBlurView.m */; };
+		140DDFDB1EF8CA710028E435 /* UIColor+flat.m in Sources */ = {isa = PBXBuildFile; fileRef = 140DDFD81EF8CA710028E435 /* UIColor+flat.m */; };
+		4F377CE77244261FA40E422B /* Pods_ImageRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF85D2CE5387497FFFD18CD /* Pods_ImageRecognition.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		140DDFB41EF8C3A80028E435 /* ImageRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		140DDFB81EF8C3A80028E435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		140DDFBA1EF8C3A80028E435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		140DDFBB1EF8C3A80028E435 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		140DDFBD1EF8C3A80028E435 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		140DDFBE1EF8C3A80028E435 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		140DDFC11EF8C3A80028E435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		140DDFC31EF8C3A80028E435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		140DDFC61EF8C3A80028E435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		140DDFC81EF8C3A80028E435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140DDFCE1EF8C9710028E435 /* AppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtils.h; sourceTree = "<group>"; };
+		140DDFCF1EF8C9710028E435 /* AppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtils.m; sourceTree = "<group>"; };
+		140DDFD21EF8CA710028E435 /* FeThreeDotGlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeThreeDotGlow.h; sourceTree = "<group>"; };
+		140DDFD31EF8CA710028E435 /* FeThreeDotGlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeThreeDotGlow.m; sourceTree = "<group>"; };
+		140DDFD51EF8CA710028E435 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		140DDFD61EF8CA710028E435 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		140DDFD71EF8CA710028E435 /* UIColor+flat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+flat.h"; sourceTree = "<group>"; };
+		140DDFD81EF8CA710028E435 /* UIColor+flat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+flat.m"; sourceTree = "<group>"; };
+		4EF85D2CE5387497FFFD18CD /* Pods_ImageRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44E09E75B158BE09573EDA4 /* Pods-ImageRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageRecognition/Pods-ImageRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		CD77E260AFB172FA1C5A8858 /* Pods-ImageRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageRecognition/Pods-ImageRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		140DDFB11EF8C3A80028E435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F377CE77244261FA40E422B /* Pods_ImageRecognition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140DDFAB1EF8C3A80028E435 = {
+			isa = PBXGroup;
+			children = (
+				140DDFB61EF8C3A80028E435 /* ImageRecognition */,
+				140DDFB51EF8C3A80028E435 /* Products */,
+				E04B78D6F4416A5F30A59518 /* Pods */,
+				AF4CB403474C6C5328907E10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		140DDFB51EF8C3A80028E435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				140DDFB41EF8C3A80028E435 /* ImageRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		140DDFB61EF8C3A80028E435 /* ImageRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				140DDFD11EF8CA710028E435 /* ThreeDotActivityIndicator */,
+				140DDFCE1EF8C9710028E435 /* AppUtils.h */,
+				140DDFCF1EF8C9710028E435 /* AppUtils.m */,
+				140DDFBA1EF8C3A80028E435 /* AppDelegate.h */,
+				140DDFBB1EF8C3A80028E435 /* AppDelegate.m */,
+				140DDFBD1EF8C3A80028E435 /* ViewController.h */,
+				140DDFBE1EF8C3A80028E435 /* ViewController.m */,
+				140DDFC01EF8C3A80028E435 /* Main.storyboard */,
+				140DDFC31EF8C3A80028E435 /* Assets.xcassets */,
+				140DDFC51EF8C3A80028E435 /* LaunchScreen.storyboard */,
+				140DDFC81EF8C3A80028E435 /* Info.plist */,
+				140DDFB71EF8C3A80028E435 /* Supporting Files */,
+			);
+			path = ImageRecognition;
+			sourceTree = "<group>";
+		};
+		140DDFB71EF8C3A80028E435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				140DDFB81EF8C3A80028E435 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		140DDFD11EF8CA710028E435 /* ThreeDotActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				140DDFD21EF8CA710028E435 /* FeThreeDotGlow.h */,
+				140DDFD31EF8CA710028E435 /* FeThreeDotGlow.m */,
+				140DDFD41EF8CA710028E435 /* Tool */,
+			);
+			path = ThreeDotActivityIndicator;
+			sourceTree = "<group>";
+		};
+		140DDFD41EF8CA710028E435 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				140DDFD51EF8CA710028E435 /* FXBlurView.h */,
+				140DDFD61EF8CA710028E435 /* FXBlurView.m */,
+				140DDFD71EF8CA710028E435 /* UIColor+flat.h */,
+				140DDFD81EF8CA710028E435 /* UIColor+flat.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		AF4CB403474C6C5328907E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EF85D2CE5387497FFFD18CD /* Pods_ImageRecognition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E04B78D6F4416A5F30A59518 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD77E260AFB172FA1C5A8858 /* Pods-ImageRecognition.debug.xcconfig */,
+				A44E09E75B158BE09573EDA4 /* Pods-ImageRecognition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		140DDFB31EF8C3A80028E435 /* ImageRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140DDFCB1EF8C3A80028E435 /* Build configuration list for PBXNativeTarget "ImageRecognition" */;
+			buildPhases = (
+				94323A411654A07497CF2945 /* [CP] Check Pods Manifest.lock */,
+				140DDFB01EF8C3A80028E435 /* Sources */,
+				140DDFB11EF8C3A80028E435 /* Frameworks */,
+				140DDFB21EF8C3A80028E435 /* Resources */,
+				604CCFA779DD93542D181FE4 /* [CP] Embed Pods Frameworks */,
+				93F5DEE58138EEBFFEAFD0CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageRecognition;
+			productName = ImageRecognition;
+			productReference = 140DDFB41EF8C3A80028E435 /* ImageRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		140DDFAC1EF8C3A80028E435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "鲍利成";
+				TargetAttributes = {
+					140DDFB31EF8C3A80028E435 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 140DDFAF1EF8C3A80028E435 /* Build configuration list for PBXProject "ImageRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 140DDFAB1EF8C3A80028E435;
+			productRefGroup = 140DDFB51EF8C3A80028E435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				140DDFB31EF8C3A80028E435 /* ImageRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		140DDFB21EF8C3A80028E435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140DDFC71EF8C3A80028E435 /* LaunchScreen.storyboard in Resources */,
+				140DDFC41EF8C3A80028E435 /* Assets.xcassets in Resources */,
+				140DDFC21EF8C3A80028E435 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		604CCFA779DD93542D181FE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageRecognition/Pods-ImageRecognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93F5DEE58138EEBFFEAFD0CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageRecognition/Pods-ImageRecognition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94323A411654A07497CF2945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		140DDFB01EF8C3A80028E435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140DDFDB1EF8CA710028E435 /* UIColor+flat.m in Sources */,
+				140DDFBF1EF8C3A80028E435 /* ViewController.m in Sources */,
+				140DDFBC1EF8C3A80028E435 /* AppDelegate.m in Sources */,
+				140DDFD91EF8CA710028E435 /* FeThreeDotGlow.m in Sources */,
+				140DDFB91EF8C3A80028E435 /* main.m in Sources */,
+				140DDFD01EF8C9710028E435 /* AppUtils.m in Sources */,
+				140DDFDA1EF8CA710028E435 /* FXBlurView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		140DDFC01EF8C3A80028E435 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				140DDFC11EF8C3A80028E435 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		140DDFC51EF8C3A80028E435 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				140DDFC61EF8C3A80028E435 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		140DDFC91EF8C3A80028E435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		140DDFCA1EF8C3A80028E435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		140DDFCC1EF8C3A80028E435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD77E260AFB172FA1C5A8858 /* Pods-ImageRecognition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ImageRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GLP.ImageRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		140DDFCD1EF8C3A80028E435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A44E09E75B158BE09573EDA4 /* Pods-ImageRecognition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = P4ZC2DV3P7;
+				INFOPLIST_FILE = ImageRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GLP.ImageRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "eda163e7-9e2f-43cf-af84-73f91a4e38ed";
+				PROVISIONING_PROFILE_SPECIFIER = GLPImageRecognitionDistributionProfile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		140DDFAF1EF8C3A80028E435 /* Build configuration list for PBXProject "ImageRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140DDFC91EF8C3A80028E435 /* Debug */,
+				140DDFCA1EF8C3A80028E435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140DDFCB1EF8C3A80028E435 /* Build configuration list for PBXNativeTarget "ImageRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140DDFCC1EF8C3A80028E435 /* Debug */,
+				140DDFCD1EF8C3A80028E435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 140DDFAC1EF8C3A80028E435 /* Project object */;
+}

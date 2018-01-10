@@ -1,0 +1,15 @@
+PODS:
+  - IconFont (0.0.2)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - IconFont (~> 0.0.2)
+  - MBProgressHUD (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  IconFont: 2ea71fd37ea03acdb6025050dd36318de9fa37d9
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: e02165aaefca87a6062c479a985086da2c1acfe6
+
+COCOAPODS: 1.2.1
